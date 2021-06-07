@@ -6,24 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        html, body {
+            width: 100%;
+            height: 100%;
+        }
+        #header {
+            height: 20%;
+            background-color: pink;
+        }
+        h1 {
+            font-size: 50px;
+            text-align: center;
+        }
         #nav {
             width: 15%;
+            height: 70%;
             background-color: yellow;
             float: left;
         }
-        #container {
-            width: 85%;
-            float: right;
-        }
         #footer {
+            height: 10%;
             background-color: grey;
             clear: both;
         }
+        #container {
+            width: 85%;
+            height: 70%;
+            float: right;
+        }
+        #container ul {
+            list-style: circle;
+        }
+
     </style>
 </head>
 <body>
     <div id="header">
-        <h1>사이트 제목</h1>
+        <h1>My homepage</h1>
     </div>
     <div id="nav">
         <ul>
@@ -35,10 +54,19 @@
         </ul>
     </div>
     <div id="container">
-        <p>...........</p>
+        <a href="https://www.sehwa.hs.kr"><img src="info.png" width="300px" height="300px"></a>
+        <ul>
+            <li>이름 : 박재원</li>
+            <li>나이 : 17</li>
+            <li>생일 : 2005.03.14</li>
+            <li>희망학과 : </li>
+        </ul>
+        <p>방문객에게 한마디!</p>
+        <p>Hello. This is my first Web Page!</p>
     </div>
     <div id="footer">
-        github 주소 : ...
+        https://github.com/s2110913/sehwa.git
     </div>
+
 </body>
 </html>
